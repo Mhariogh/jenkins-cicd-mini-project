@@ -105,7 +105,7 @@ Before automating anything, do it manually once so you know what the pipeline is
 ```bash
 cd app
 python3 -m venv venv
-source venv/bin/activate          # On Windows: venv\Scripts\activate
+source venv/Scripts/activate        # Mac source venv/bin/activate # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 pytest -v
 ```

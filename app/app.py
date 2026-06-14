@@ -14,9 +14,11 @@ def add(a, b):
     """Return the sum of two numbers. Kept pure so it is trivial to test."""
     return a + b
 
+
 def subtract(a, b):
-    """Return the difference of two numbers. Kept pure so it is trivial to test."""
+    """Return the difference of two numbers."""
     return a - b
+
 
 @app.route("/")
 def home():

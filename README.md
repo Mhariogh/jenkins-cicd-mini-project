@@ -126,7 +126,7 @@ docker compose up -d --build
 The first build takes a few minutes because it downloads images and installs tools. When it finishes, get the one-time unlock password:
 
 ```bash
-docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+docker exec jenkins cat //var/jenkins_home/secrets/initialAdminPassword
 ```
 
 Now open `http://localhost:8080` in your browser.
